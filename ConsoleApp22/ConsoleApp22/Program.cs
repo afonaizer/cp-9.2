@@ -29,8 +29,8 @@ namespace ConsoleApp22
 
         static void Fill(List<string> bible)
         {
-            List<string> fill = new List<string>(8);
-            for (int i = 0; i < 8; i++)
+            List<string> fill = new List<string>(6);
+            for (int i = 0; i < 6; i++)
             {
                 Console.Write($"\nназвание книги {i + 1}: ");
                 bible.Add(Console.ReadLine());
